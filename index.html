@@ -1,50 +1,78 @@
 <!DOCTYPE html>
-<html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <title>جدول البيانات</title>
+    <title>البيانات الشخصية</title>
     <style>
+        body {
+            background-color: #f0f8ff;
+            font-family: 'Cairo', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
         table {
             border-collapse: collapse;
-            width: 50%;
-            margin: 30px auto;
-            direction: rtl;
-            font-family: Arial, sans-serif;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            background-color: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        caption {
+            background-color: #4a90e2;
+            color: white;
+            font-size: 1.5em;
+            padding: 12px;
+            font-weight: bold;
         }
         th, td {
-            border: 1px solid #333;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
         }
         th {
-            background-color: #f2f2f2;
-        }
-        caption {
-            margin-bottom: 10px;
-            font-size: 1.2em;
+            background-color: #f7f7f7;
+            color: #333;
             font-weight: bold;
+            border-bottom: 1px solid #ddd;
+        }
+        tr:nth-child(even) td {
+            background-color: #f0f4f8;
+        }
+        tr:nth-child(odd) td {
+            background-color: #ffffff;
         }
     </style>
 </head>
 <body>
 
 <table>
-    <caption>البيانات الشخصية</caption>
+    <caption>My Information</caption>
     <tr>
-        <th>الاسم</th>
-        <td>كريم محمد سالم سيد</td>
+        <th>name</th>
+        <td>Karim Mohammed Salem Sayed</td>
     </tr>
     <tr>
-        <th>الجروب</th>
-        <td>ب</td>
+        <th>Group</th>
+        <td>B</td>
     </tr>
     <tr>
-        <th>الرقم</th>
+        <th>Number</th>
         <td>19</td>
     </tr>
     <tr>
-        <th>الرقم الجامعي</th>
+        <th>ID</th>
         <td>20231353</td>
+    </tr>
+    <tr>
+        <th>Age</th>
+        <td>19</td>
+    </tr>
+    
+    <tr>
+        <th>Grade</th>
+        <td>3</td>
     </tr>
 </table>
 
