@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>جدول البيانات</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 30px auto;
+            direction: rtl;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        caption {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>البيانات الشخصية</caption>
+    <tr>
+        <th>الاسم</th>
+        <td>كريم محمد سالم سيد</td>
+    </tr>
+    <tr>
+        <th>الجروب</th>
+        <td>ب</td>
+    </tr>
+    <tr>
+        <th>الرقم</th>
+        <td>19</td>
+    </tr>
+    <tr>
+        <th>الرقم الجامعي</th>
+        <td>20231353</td>
+    </tr>
+</table>
+
+</body>
+</html>
